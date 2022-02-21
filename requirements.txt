@@ -1,1 +1,4 @@
 Django==2.2.13
+django-bootstrap-static==4.2.1
+django-crispy-forms==1.9.2
+psycopg2==2.8.5

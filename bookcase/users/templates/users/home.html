@@ -1,0 +1,10 @@
+{% extends 'users/index.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="container-fluid text-center h2 p-5 font-weight-light">
+  <p class="text-success">Hi {{ user.username }}!</p>
+  <p><a href="{% url 'logout' %}" class="badge badge-info">Logout</a></p>
+</div>
+{% endblock %}
